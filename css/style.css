@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: gold;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  color: gold;
+}
+
+/* Hero Section */
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background-color: gold;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid gold;
+  color: gold;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Shop Page */
+.shop {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.shop h2 {
+  font-size: 36px;
+  color: gold;
+  margin-bottom: 40px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.product {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: gold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Order Page */
+.order {
+  padding: 80px 60px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.order h2 {
+  color: gold;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.order p {
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order-form input,
+.order-form textarea {
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.order-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.order-form button {
+  margin-top: 10px;
+}
+
+/* Contact Page */
+.contact {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: gold;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.contact-methods a {
+  width: 200px;
+  text-align: center;
+}
+
